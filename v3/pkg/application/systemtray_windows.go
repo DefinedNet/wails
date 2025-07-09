@@ -343,7 +343,7 @@ func (s *windowsSystemTray) updateIcon() {
 	}
 
 	if !w32.ShellNotifyIcon(w32.NIM_MODIFY, &nid) {
-		panic(syscall.GetLastError())
+		globalApplication.handleError(fmt.Errorf("failed to update system tray icon: %w", syscall.GetLastError()))
 	}
 
 	// Track ownership of the current icon so we know if we can destroy it later
