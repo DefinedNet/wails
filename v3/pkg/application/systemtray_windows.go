@@ -315,7 +315,7 @@ func (s *windowsSystemTray) setIcon(icon []byte) {
 	}
 	s.lightModeIcon, err = w32.CreateSmallHIconFromImage(icon)
 	if err != nil {
-		panic(syscall.GetLastError())
+		panic(err)
 	}
 	if s.darkModeIcon == 0 {
 		s.darkModeIcon = s.lightModeIcon
@@ -332,7 +332,7 @@ func (s *windowsSystemTray) setDarkModeIcon(icon []byte) {
 	}
 	s.darkModeIcon, err = w32.CreateSmallHIconFromImage(icon)
 	if err != nil {
-		panic(syscall.GetLastError())
+		panic(err)
 	}
 	if s.lightModeIcon == 0 {
 		s.lightModeIcon = s.darkModeIcon
