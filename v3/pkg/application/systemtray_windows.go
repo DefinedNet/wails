@@ -4,6 +4,7 @@ package application
 
 import (
 	"errors"
+	"fmt"
 	"syscall"
 	"time"
 	"unsafe"
@@ -288,7 +289,7 @@ func (s *windowsSystemTray) updateIcon() {
 	}
 
 	if !w32.ShellNotifyIcon(w32.NIM_MODIFY, &nid) {
-		panic(syscall.GetLastError())
+		globalApplication.handleError(fmt.Errorf("failed to update system tray icon: %w", syscall.GetLastError()))
 	}
 
 	// Destroy the old icon handle if it exists and is not one of our default icons
