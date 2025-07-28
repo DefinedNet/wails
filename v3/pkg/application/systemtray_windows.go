@@ -43,6 +43,9 @@ func (s *windowsSystemTray) openMenu() {
 	if err != nil {
 		return
 	}
+	if trayBounds == nil {
+		return
+	}
 
 	// Show the menu at the tray bounds
 	s.menu.ShowAt(trayBounds.X, trayBounds.Y)
@@ -77,6 +80,9 @@ func (s *windowsSystemTray) positionWindow(window *WebviewWindow, offset int) er
 		trayBounds, err = s.bounds()
 		if err != nil {
 			return err
+		}
+		if trayBounds == nil {
+			return errors.New("failed to get system tray bounds")
 		}
 		*trayBounds = PhysicalToDipRect(*trayBounds)
 		centerAlignX = trayBounds.X + (trayBounds.Width / 2) - (windowBounds.Width / 2)
@@ -116,9 +122,16 @@ func (s *windowsSystemTray) positionWindow(window *WebviewWindow, offset int) er
 }
 
 func (s *windowsSystemTray) bounds() (*Rect, error) {
+	if s.hwnd == 0 {
+		return nil, errors.New("system tray window handle not initialized")
+	}
+	
 	bounds, err := w32.GetSystrayBounds(s.hwnd, s.uid)
 	if err != nil {
 		return nil, err
+	}
+	if bounds == nil {
+		return nil, errors.New("GetSystrayBounds returned nil")
 	}
 
 	monitor := w32.MonitorFromWindow(s.hwnd, w32.MONITOR_DEFAULTTONEAREST)
@@ -135,12 +148,22 @@ func (s *windowsSystemTray) bounds() (*Rect, error) {
 }
 
 func (s *windowsSystemTray) iconIsInTrayBounds() (bool, error) {
+	if s.hwnd == 0 {
+		return false, errors.New("system tray window handle not initialized")
+	}
+	
 	bounds, err := w32.GetSystrayBounds(s.hwnd, s.uid)
 	if err != nil {
 		return false, err
 	}
+	if bounds == nil {
+		return false, errors.New("GetSystrayBounds returned nil")
+	}
 
 	taskbarRect := w32.GetTaskbarPosition()
+	if taskbarRect == nil {
+		return false, errors.New("failed to get taskbar position")
+	}
 
 	inTasksBar := w32.RectInRect(bounds, &taskbarRect.Rc)
 	if inTasksBar {
@@ -151,6 +174,9 @@ func (s *windowsSystemTray) iconIsInTrayBounds() (bool, error) {
 }
 
 func (s *windowsSystemTray) getScreen() (*Screen, error) {
+	if s.hwnd == 0 {
+		return nil, errors.New("system tray window handle not initialized")
+	}
 	// Get the screen for this systray
 	return getScreenForWindowHwnd(s.hwnd)
 }
