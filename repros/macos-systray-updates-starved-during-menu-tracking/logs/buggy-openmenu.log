@@ -1,0 +1,198 @@
+5:16PM INF Build Info: Wails=(local) => ../../v3 Compiler=go1.27.1 GOOS=darwin GOARM64=v8.0 -buildmode=exe -compiler=gc CGO_ENABLED=1 CGO_CXXFLAGS= DefaultGODEBUG=cryptocustomrand=1,tlssecpmlkem=0,tracebacklabels=0,urlstrictcolons=0,x509sslcertoverrideplatform=0 CGO_CFLAGS= CGO_CPPFLAGS= CGO_LDFLAGS= GOARCH=arm64
+5:16PM INF Platform Info: ID=26A428 Name=MacOS Version=27.0 Branding=MacOS 27.0
+5:16PM INF AssetServer Info: middleware=true handler=true
+17:16:43.375 T+ 0.284s  call  SetTemplateIcon(square) + SetLabel(tick 1)
+17:16:43.382 T+ 0.292s  mode  main run loop is in kCFRunLoopDefaultMode at tick 1
+17:16:43.386 T+ 0.296s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 1, 0.006s late
+17:16:43.391 T+ 0.301s  ran   dispatch_async(main queue)     scheduled with tick 1, 0.011s late
+17:16:43.634 T+ 0.544s  call  SetTemplateIcon(circle) + SetLabel(tick 2)
+17:16:43.643 T+ 0.553s  mode  main run loop is in kCFRunLoopDefaultMode at tick 2
+17:16:43.653 T+ 0.563s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 2, 0.012s late
+17:16:43.663 T+ 0.572s  ran   dispatch_async(main queue)     scheduled with tick 2, 0.022s late
+17:16:43.876 T+ 0.785s  call  SetTemplateIcon(square) + SetLabel(tick 3)
+17:16:43.898 T+ 0.808s  mode  main run loop is in kCFRunLoopDefaultMode at tick 3
+17:16:43.902 T+ 0.812s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 3, 0.007s late
+17:16:43.906 T+ 0.816s  ran   dispatch_async(main queue)     scheduled with tick 3, 0.011s late
+17:16:44.126 T+ 1.036s  call  SetTemplateIcon(circle) + SetLabel(tick 4)
+17:16:44.133 T+ 1.043s  mode  main run loop is in kCFRunLoopDefaultMode at tick 4
+17:16:44.138 T+ 1.047s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 4, 0.005s late
+17:16:44.150 T+ 1.060s  ran   dispatch_async(main queue)     scheduled with tick 4, 0.018s late
+17:16:44.376 T+ 1.286s  call  SetTemplateIcon(square) + SetLabel(tick 5)
+17:16:44.387 T+ 1.297s  mode  main run loop is in kCFRunLoopDefaultMode at tick 5
+17:16:44.391 T+ 1.300s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 5, 0.005s late
+17:16:44.397 T+ 1.307s  ran   dispatch_async(main queue)     scheduled with tick 5, 0.011s late
+17:16:44.624 T+ 1.534s  call  SetTemplateIcon(circle) + SetLabel(tick 6)
+17:16:44.638 T+ 1.547s  mode  main run loop is in kCFRunLoopDefaultMode at tick 6
+17:16:44.642 T+ 1.552s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 6, 0.007s late
+17:16:44.652 T+ 1.562s  ran   dispatch_async(main queue)     scheduled with tick 6, 0.018s late
+17:16:44.874 T+ 1.783s  call  SetTemplateIcon(square) + SetLabel(tick 7)
+17:16:44.890 T+ 1.800s  mode  main run loop is in kCFRunLoopDefaultMode at tick 7
+17:16:44.894 T+ 1.804s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 7, 0.009s late
+17:16:44.900 T+ 1.810s  ran   dispatch_async(main queue)     scheduled with tick 7, 0.015s late
+17:16:45.124 T+ 2.034s  call  SetTemplateIcon(circle) + SetLabel(tick 8)
+17:16:45.136 T+ 2.045s  mode  main run loop is in kCFRunLoopDefaultMode at tick 8
+17:16:45.140 T+ 2.049s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 8, 0.006s late
+17:16:45.154 T+ 2.064s  ran   dispatch_async(main queue)     scheduled with tick 8, 0.020s late
+17:16:45.374 T+ 2.284s  call  SetTemplateIcon(square) + SetLabel(tick 9)
+17:16:45.384 T+ 2.294s  mode  main run loop is in kCFRunLoopDefaultMode at tick 9
+17:16:45.391 T+ 2.301s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 9, 0.009s late
+17:16:45.402 T+ 2.311s  ran   dispatch_async(main queue)     scheduled with tick 9, 0.020s late
+17:16:45.623 T+ 2.533s  call  SetTemplateIcon(circle) + SetLabel(tick 10)
+17:16:45.637 T+ 2.546s  mode  main run loop is in kCFRunLoopDefaultMode at tick 10
+17:16:45.641 T+ 2.551s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 10, 0.007s late
+17:16:45.652 T+ 2.562s  ran   dispatch_async(main queue)     scheduled with tick 10, 0.018s late
+17:16:45.874 T+ 2.784s  call  SetTemplateIcon(square) + SetLabel(tick 11)
+17:16:45.884 T+ 2.794s  mode  main run loop is in kCFRunLoopDefaultMode at tick 11
+17:16:45.889 T+ 2.799s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 11, 0.007s late
+17:16:45.903 T+ 2.812s  ran   dispatch_async(main queue)     scheduled with tick 11, 0.021s late
+17:16:46.126 T+ 3.035s  call  SetTemplateIcon(circle) + SetLabel(tick 12)
+17:16:46.126 T+ 3.036s  event OpenMenu() - native menu tracking starts here
+17:16:46.184 T+ 3.094s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 12
+17:16:46.191 T+ 3.100s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 12, 0.013s late
+17:16:46.379 T+ 3.289s  call  SetTemplateIcon(square) + SetLabel(tick 13)
+17:16:46.385 T+ 3.295s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 13
+17:16:46.391 T+ 3.300s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 13, 0.005s late
+17:16:46.625 T+ 3.534s  call  SetTemplateIcon(circle) + SetLabel(tick 14)
+17:16:46.632 T+ 3.542s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 14
+17:16:46.638 T+ 3.547s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 14, 0.005s late
+17:16:46.875 T+ 3.785s  call  SetTemplateIcon(square) + SetLabel(tick 15)
+17:16:46.882 T+ 3.791s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 15
+17:16:46.886 T+ 3.795s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 15, 0.004s late
+17:16:47.125 T+ 4.035s  call  SetTemplateIcon(circle) + SetLabel(tick 16)
+17:16:47.135 T+ 4.045s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 16
+17:16:47.139 T+ 4.049s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 16, 0.004s late
+17:16:47.396 T+ 4.306s  call  SetTemplateIcon(square) + SetLabel(tick 17)
+17:16:47.401 T+ 4.311s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 17
+17:16:47.406 T+ 4.316s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 17, 0.005s late
+17:16:47.630 T+ 4.540s  call  SetTemplateIcon(circle) + SetLabel(tick 18)
+17:16:47.636 T+ 4.546s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 18
+17:16:47.641 T+ 4.550s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 18, 0.005s late
+17:16:47.875 T+ 4.785s  call  SetTemplateIcon(square) + SetLabel(tick 19)
+17:16:47.882 T+ 4.792s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 19
+17:16:47.886 T+ 4.796s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 19, 0.004s late
+17:16:48.124 T+ 5.034s  call  SetTemplateIcon(circle) + SetLabel(tick 20)
+17:16:48.134 T+ 5.043s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 20
+17:16:48.139 T+ 5.048s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 20, 0.005s late
+17:16:48.380 T+ 5.290s  call  SetTemplateIcon(square) + SetLabel(tick 21)
+17:16:48.387 T+ 5.296s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 21
+17:16:48.392 T+ 5.301s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 21, 0.005s late
+17:16:48.631 T+ 5.540s  call  SetTemplateIcon(circle) + SetLabel(tick 22)
+17:16:48.636 T+ 5.546s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 22
+17:16:48.641 T+ 5.550s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 22, 0.005s late
+17:16:48.874 T+ 5.784s  call  SetTemplateIcon(square) + SetLabel(tick 23)
+17:16:48.883 T+ 5.792s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 23
+17:16:48.887 T+ 5.797s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 23, 0.004s late
+17:16:49.125 T+ 6.035s  call  SetTemplateIcon(circle) + SetLabel(tick 24)
+17:16:49.134 T+ 6.044s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 24
+17:16:49.139 T+ 6.048s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 24, 0.004s late
+17:16:49.376 T+ 6.285s  call  SetTemplateIcon(square) + SetLabel(tick 25)
+17:16:49.386 T+ 6.295s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 25
+17:16:49.390 T+ 6.300s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 25, 0.005s late
+17:16:49.626 T+ 6.536s  call  SetTemplateIcon(circle) + SetLabel(tick 26)
+17:16:49.639 T+ 6.549s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 26
+17:16:49.644 T+ 6.554s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 26, 0.005s late
+17:16:49.875 T+ 6.785s  call  SetTemplateIcon(square) + SetLabel(tick 27)
+17:16:49.881 T+ 6.791s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 27
+17:16:49.886 T+ 6.796s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 27, 0.005s late
+17:16:50.125 T+ 7.034s  call  SetTemplateIcon(circle) + SetLabel(tick 28)
+17:16:50.133 T+ 7.042s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 28
+17:16:50.137 T+ 7.047s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 28, 0.004s late
+17:16:50.375 T+ 7.285s  call  SetTemplateIcon(square) + SetLabel(tick 29)
+17:16:50.383 T+ 7.293s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 29
+17:16:50.388 T+ 7.298s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 29, 0.005s late
+17:16:50.624 T+ 7.533s  call  SetTemplateIcon(circle) + SetLabel(tick 30)
+17:16:50.635 T+ 7.544s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 30
+17:16:50.639 T+ 7.548s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 30, 0.004s late
+17:16:50.874 T+ 7.783s  call  SetTemplateIcon(square) + SetLabel(tick 31)
+17:16:50.882 T+ 7.792s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 31
+17:16:50.887 T+ 7.796s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 31, 0.004s late
+17:16:51.124 T+ 8.034s  call  SetTemplateIcon(circle) + SetLabel(tick 32)
+17:16:51.132 T+ 8.041s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 32
+17:16:51.135 T+ 8.045s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 32, 0.004s late
+17:16:51.383 T+ 8.293s  call  SetTemplateIcon(square) + SetLabel(tick 33)
+17:16:51.394 T+ 8.303s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 33
+17:16:51.399 T+ 8.309s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 33, 0.006s late
+17:16:51.625 T+ 8.535s  call  SetTemplateIcon(circle) + SetLabel(tick 34)
+17:16:51.631 T+ 8.541s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 34
+17:16:51.636 T+ 8.545s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 34, 0.004s late
+17:16:51.876 T+ 8.785s  call  SetTemplateIcon(square) + SetLabel(tick 35)
+17:16:51.883 T+ 8.792s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 35
+17:16:51.888 T+ 8.797s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 35, 0.005s late
+17:16:52.124 T+ 9.034s  event dismissing menu (synthetic Escape)
+17:16:52.130 T+ 9.040s  call  SetTemplateIcon(circle) + SetLabel(tick 36)
+17:16:52.144 T+ 9.053s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 36
+17:16:52.149 T+ 9.058s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 36, 0.005s late
+17:16:52.382 T+ 9.292s  call  SetTemplateIcon(square) + SetLabel(tick 37)
+17:16:52.386 T+ 9.296s  ran   dispatch_async(main queue)     scheduled with tick 12, 6.208s late
+17:16:52.392 T+ 9.301s  ran   dispatch_async(main queue)     scheduled with tick 13, 6.006s late
+17:16:52.396 T+ 9.306s  ran   dispatch_async(main queue)     scheduled with tick 14, 5.764s late
+17:16:52.401 T+ 9.311s  ran   dispatch_async(main queue)     scheduled with tick 15, 5.520s late
+17:16:52.407 T+ 9.317s  ran   dispatch_async(main queue)     scheduled with tick 16, 5.272s late
+17:16:52.412 T+ 9.322s  ran   dispatch_async(main queue)     scheduled with tick 17, 5.011s late
+17:16:52.417 T+ 9.327s  ran   dispatch_async(main queue)     scheduled with tick 18, 4.781s late
+17:16:52.422 T+ 9.332s  ran   dispatch_async(main queue)     scheduled with tick 19, 4.540s late
+17:16:52.429 T+ 9.338s  ran   dispatch_async(main queue)     scheduled with tick 20, 4.295s late
+17:16:52.438 T+ 9.347s  ran   dispatch_async(main queue)     scheduled with tick 21, 4.051s late
+17:16:52.446 T+ 9.356s  ran   dispatch_async(main queue)     scheduled with tick 22, 3.811s late
+17:16:52.452 T+ 9.362s  ran   dispatch_async(main queue)     scheduled with tick 23, 3.569s late
+17:16:52.459 T+ 9.368s  ran   dispatch_async(main queue)     scheduled with tick 24, 3.325s late
+17:16:52.465 T+ 9.375s  ran   dispatch_async(main queue)     scheduled with tick 25, 3.080s late
+17:16:52.473 T+ 9.383s  ran   dispatch_async(main queue)     scheduled with tick 26, 2.833s late
+17:16:52.479 T+ 9.389s  ran   dispatch_async(main queue)     scheduled with tick 27, 2.598s late
+17:16:52.487 T+ 9.397s  ran   dispatch_async(main queue)     scheduled with tick 28, 2.354s late
+17:16:52.494 T+ 9.404s  ran   dispatch_async(main queue)     scheduled with tick 29, 2.111s late
+17:16:52.501 T+ 9.410s  ran   dispatch_async(main queue)     scheduled with tick 30, 1.866s late
+17:16:52.512 T+ 9.422s  ran   dispatch_async(main queue)     scheduled with tick 31, 1.630s late
+17:16:52.521 T+ 9.431s  ran   dispatch_async(main queue)     scheduled with tick 32, 1.390s late
+17:16:52.526 T+ 9.436s  ran   dispatch_async(main queue)     scheduled with tick 33, 1.132s late
+17:16:52.532 T+ 9.442s  ran   dispatch_async(main queue)     scheduled with tick 34, 0.901s late
+17:16:52.541 T+ 9.451s  ran   dispatch_async(main queue)     scheduled with tick 35, 0.658s late
+17:16:52.546 T+ 9.456s  ran   dispatch_async(main queue)     scheduled with tick 36, 0.403s late
+17:16:52.555 T+ 9.464s  mode  main run loop is in kCFRunLoopDefaultMode at tick 37
+17:16:52.560 T+ 9.469s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 37, 0.009s late
+17:16:52.572 T+ 9.482s  ran   dispatch_async(main queue)     scheduled with tick 37, 0.021s late
+17:16:52.624 T+ 9.534s  call  SetTemplateIcon(circle) + SetLabel(tick 38)
+17:16:52.639 T+ 9.548s  mode  main run loop is in kCFRunLoopDefaultMode at tick 38
+17:16:52.643 T+ 9.552s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 38, 0.007s late
+17:16:52.660 T+ 9.570s  ran   dispatch_async(main queue)     scheduled with tick 38, 0.024s late
+17:16:52.881 T+ 9.791s  call  SetTemplateIcon(square) + SetLabel(tick 39)
+17:16:52.887 T+ 9.797s  mode  main run loop is in kCFRunLoopDefaultMode at tick 39
+17:16:52.892 T+ 9.801s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 39, 0.004s late
+17:16:52.906 T+ 9.815s  ran   dispatch_async(main queue)     scheduled with tick 39, 0.018s late
+17:16:53.124 T+10.033s  call  SetTemplateIcon(circle) + SetLabel(tick 40)
+17:16:53.141 T+10.051s  mode  main run loop is in kCFRunLoopDefaultMode at tick 40
+17:16:53.146 T+10.055s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 40, 0.004s late
+17:16:53.150 T+10.060s  ran   dispatch_async(main queue)     scheduled with tick 40, 0.009s late
+17:16:53.375 T+10.284s  call  SetTemplateIcon(square) + SetLabel(tick 41)
+17:16:53.387 T+10.297s  mode  main run loop is in kCFRunLoopDefaultMode at tick 41
+17:16:53.392 T+10.301s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 41, 0.006s late
+17:16:53.406 T+10.316s  ran   dispatch_async(main queue)     scheduled with tick 41, 0.020s late
+17:16:53.624 T+10.534s  call  SetTemplateIcon(circle) + SetLabel(tick 42)
+17:16:53.649 T+10.558s  mode  main run loop is in kCFRunLoopDefaultMode at tick 42
+17:16:53.653 T+10.563s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 42, 0.005s late
+17:16:53.660 T+10.570s  ran   dispatch_async(main queue)     scheduled with tick 42, 0.012s late
+17:16:53.883 T+10.792s  call  SetTemplateIcon(square) + SetLabel(tick 43)
+17:16:53.893 T+10.803s  mode  main run loop is in kCFRunLoopDefaultMode at tick 43
+17:16:53.898 T+10.808s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 43, 0.007s late
+17:16:53.909 T+10.819s  ran   dispatch_async(main queue)     scheduled with tick 43, 0.018s late
+17:16:54.124 T+11.034s  call  SetTemplateIcon(circle) + SetLabel(tick 44)
+17:16:54.136 T+11.045s  mode  main run loop is in kCFRunLoopDefaultMode at tick 44
+17:16:54.140 T+11.050s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 44, 0.007s late
+17:16:54.150 T+11.060s  ran   dispatch_async(main queue)     scheduled with tick 44, 0.017s late
+17:16:54.376 T+11.285s  call  SetTemplateIcon(square) + SetLabel(tick 45)
+17:16:54.394 T+11.304s  ran   dispatch_async(main queue)     scheduled with tick 45, 0.001s late
+17:16:54.399 T+11.308s  mode  main run loop is in kCFRunLoopDefaultMode at tick 45
+17:16:54.403 T+11.313s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 45, 0.010s late
+17:16:54.628 T+11.537s  call  SetTemplateIcon(circle) + SetLabel(tick 46)
+17:16:54.640 T+11.550s  mode  main run loop is in kCFRunLoopDefaultMode at tick 46
+17:16:54.644 T+11.554s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 46, 0.007s late
+17:16:54.656 T+11.566s  ran   dispatch_async(main queue)     scheduled with tick 46, 0.019s late
+17:16:54.874 T+11.784s  call  SetTemplateIcon(square) + SetLabel(tick 47)
+17:16:54.884 T+11.794s  mode  main run loop is in kCFRunLoopDefaultMode at tick 47
+17:16:54.889 T+11.799s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 47, 0.007s late
+17:16:54.902 T+11.811s  ran   dispatch_async(main queue)     scheduled with tick 47, 0.020s late
+17:16:55.125 T+12.034s  call  SetTemplateIcon(circle) + SetLabel(tick 48)
+17:16:55.125 T+12.035s  event quitting
+17:16:55.145 T+12.054s  mode  main run loop is in kCFRunLoopDefaultMode at tick 48
+17:16:55.151 T+12.061s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 48, 0.007s late
+17:16:55.157 T+12.067s  ran   dispatch_async(main queue)     scheduled with tick 48, 0.013s late

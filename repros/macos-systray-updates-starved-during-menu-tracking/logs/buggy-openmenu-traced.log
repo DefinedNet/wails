@@ -1,0 +1,272 @@
+5:11PM INF Build Info: Wails=(local) => ../../v3 Compiler=go1.27.1 -compiler=gc DefaultGODEBUG=cryptocustomrand=1,tlssecpmlkem=0,tracebacklabels=0,urlstrictcolons=0,x509sslcertoverrideplatform=0 CGO_ENABLED=1 CGO_CXXFLAGS= GOARCH=arm64 GOOS=darwin GOARM64=v8.0 -buildmode=exe CGO_CFLAGS= CGO_CPPFLAGS= CGO_LDFLAGS=
+5:11PM INF Platform Info: ID=26A428 Name=MacOS Version=27.0 Branding=MacOS 27.0
+5:11PM INF AssetServer Info: middleware=true handler=true
+17:11:03.237          trace systemTraySetLabel block ran
+17:11:03.238          trace systemTraySetIcon block ran
+17:11:03.336 T+ 0.278s  call  SetTemplateIcon(square) + SetLabel(tick 1)
+17:11:03.341          trace systemTraySetIcon block ran
+17:11:03.344 T+ 0.286s  mode  main run loop is in kCFRunLoopDefaultMode at tick 1
+17:11:03.348 T+ 0.290s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 1, 0.006s late
+17:11:03.354          trace systemTraySetLabel block ran
+17:11:03.355 T+ 0.297s  ran   dispatch_async(main queue)     scheduled with tick 1, 0.013s late
+17:11:03.585 T+ 0.527s  call  SetTemplateIcon(circle) + SetLabel(tick 2)
+17:11:03.590          trace systemTraySetIcon block ran
+17:11:03.595 T+ 0.537s  mode  main run loop is in kCFRunLoopDefaultMode at tick 2
+17:11:03.600 T+ 0.542s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 2, 0.008s late
+17:11:03.612          trace systemTraySetLabel block ran
+17:11:03.613 T+ 0.556s  ran   dispatch_async(main queue)     scheduled with tick 2, 0.022s late
+17:11:03.837 T+ 0.780s  call  SetTemplateIcon(square) + SetLabel(tick 3)
+17:11:03.852          trace systemTraySetIcon block ran
+17:11:03.853 T+ 0.795s  mode  main run loop is in kCFRunLoopDefaultMode at tick 3
+17:11:03.857 T+ 0.799s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 3, 0.004s late
+17:11:03.870          trace systemTraySetLabel block ran
+17:11:03.871 T+ 0.813s  ran   dispatch_async(main queue)     scheduled with tick 3, 0.017s late
+17:11:04.085 T+ 1.027s  call  SetTemplateIcon(circle) + SetLabel(tick 4)
+17:11:04.100          trace systemTraySetIcon block ran
+17:11:04.101 T+ 1.043s  mode  main run loop is in kCFRunLoopDefaultMode at tick 4
+17:11:04.106 T+ 1.048s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 4, 0.006s late
+17:11:04.112          trace systemTraySetLabel block ran
+17:11:04.112 T+ 1.054s  ran   dispatch_async(main queue)     scheduled with tick 4, 0.012s late
+17:11:04.336 T+ 1.278s  call  SetTemplateIcon(square) + SetLabel(tick 5)
+17:11:04.343          trace systemTraySetIcon block ran
+17:11:04.353 T+ 1.295s  mode  main run loop is in kCFRunLoopDefaultMode at tick 5
+17:11:04.358 T+ 1.300s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 5, 0.012s late
+17:11:04.369          trace systemTraySetLabel block ran
+17:11:04.369 T+ 1.312s  ran   dispatch_async(main queue)     scheduled with tick 5, 0.023s late
+17:11:04.588 T+ 1.530s  call  SetTemplateIcon(circle) + SetLabel(tick 6)
+17:11:04.594          trace systemTraySetIcon block ran
+17:11:04.611          trace systemTraySetLabel block ran
+17:11:04.612 T+ 1.554s  mode  main run loop is in kCFRunLoopDefaultMode at tick 6
+17:11:04.616 T+ 1.558s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 6, 0.004s late
+17:11:04.624 T+ 1.566s  ran   dispatch_async(main queue)     scheduled with tick 6, 0.013s late
+17:11:04.837 T+ 1.779s  call  SetTemplateIcon(square) + SetLabel(tick 7)
+17:11:04.845          trace systemTraySetIcon block ran
+17:11:04.848 T+ 1.790s  mode  main run loop is in kCFRunLoopDefaultMode at tick 7
+17:11:04.857 T+ 1.800s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 7, 0.012s late
+17:11:04.864          trace systemTraySetLabel block ran
+17:11:04.864 T+ 1.806s  ran   dispatch_async(main queue)     scheduled with tick 7, 0.019s late
+17:11:05.085 T+ 2.027s  call  SetTemplateIcon(circle) + SetLabel(tick 8)
+17:11:05.096          trace systemTraySetIcon block ran
+17:11:05.100 T+ 2.042s  mode  main run loop is in kCFRunLoopDefaultMode at tick 8
+17:11:05.105 T+ 2.048s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 8, 0.007s late
+17:11:05.116          trace systemTraySetLabel block ran
+17:11:05.117 T+ 2.059s  ran   dispatch_async(main queue)     scheduled with tick 8, 0.019s late
+17:11:05.341 T+ 2.284s  call  SetTemplateIcon(square) + SetLabel(tick 9)
+17:11:05.348          trace systemTraySetIcon block ran
+17:11:05.349 T+ 2.291s  mode  main run loop is in kCFRunLoopDefaultMode at tick 9
+17:11:05.354 T+ 2.296s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 9, 0.006s late
+17:11:05.365          trace systemTraySetLabel block ran
+17:11:05.365 T+ 2.308s  ran   dispatch_async(main queue)     scheduled with tick 9, 0.017s late
+17:11:05.585 T+ 2.527s  call  SetTemplateIcon(circle) + SetLabel(tick 10)
+17:11:05.592          trace systemTraySetIcon block ran
+17:11:05.597 T+ 2.539s  mode  main run loop is in kCFRunLoopDefaultMode at tick 10
+17:11:05.601 T+ 2.543s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 10, 0.008s late
+17:11:05.617          trace systemTraySetLabel block ran
+17:11:05.618 T+ 2.560s  ran   dispatch_async(main queue)     scheduled with tick 10, 0.025s late
+17:11:05.836 T+ 2.778s  call  SetTemplateIcon(square) + SetLabel(tick 11)
+17:11:05.842          trace systemTraySetIcon block ran
+17:11:05.852          trace systemTraySetLabel block ran
+17:11:05.853 T+ 2.795s  mode  main run loop is in kCFRunLoopDefaultMode at tick 11
+17:11:05.858 T+ 2.800s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 11, 0.005s late
+17:11:05.868 T+ 2.810s  ran   dispatch_async(main queue)     scheduled with tick 11, 0.016s late
+17:11:06.085 T+ 3.027s  call  SetTemplateIcon(circle) + SetLabel(tick 12)
+17:11:06.085 T+ 3.027s  event OpenMenu() - native menu tracking starts here
+17:11:06.092          trace systemTraySetIcon block ran
+17:11:06.096 T+ 3.038s  mode  main run loop is in kCFRunLoopDefaultMode at tick 12
+17:11:06.101 T+ 3.043s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 12, 0.008s late
+17:11:06.108          trace showMenu enqueued on the main queue
+17:11:06.108          trace systemTraySetLabel block ran
+17:11:06.109 T+ 3.051s  ran   dispatch_async(main queue)     scheduled with tick 12, 0.015s late
+17:11:06.113          trace showMenu block started draining on the main queue
+17:11:06.113          trace showMenu entering mouseDown: (blocks for the menu lifetime)
+17:11:06.345 T+ 3.287s  call  SetTemplateIcon(square) + SetLabel(tick 13)
+17:11:06.351 T+ 3.293s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 13
+17:11:06.355 T+ 3.297s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 13, 0.005s late
+17:11:06.586 T+ 3.528s  call  SetTemplateIcon(circle) + SetLabel(tick 14)
+17:11:06.593 T+ 3.535s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 14
+17:11:06.597 T+ 3.539s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 14, 0.005s late
+17:11:06.838 T+ 3.780s  call  SetTemplateIcon(square) + SetLabel(tick 15)
+17:11:06.846 T+ 3.788s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 15
+17:11:06.851 T+ 3.793s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 15, 0.005s late
+17:11:07.085 T+ 4.027s  call  SetTemplateIcon(circle) + SetLabel(tick 16)
+17:11:07.093 T+ 4.035s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 16
+17:11:07.097 T+ 4.039s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 16, 0.004s late
+17:11:07.337 T+ 4.279s  call  SetTemplateIcon(square) + SetLabel(tick 17)
+17:11:07.344 T+ 4.286s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 17
+17:11:07.349 T+ 4.291s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 17, 0.005s late
+17:11:07.586 T+ 4.528s  call  SetTemplateIcon(circle) + SetLabel(tick 18)
+17:11:07.594 T+ 4.536s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 18
+17:11:07.599 T+ 4.541s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 18, 0.005s late
+17:11:07.836 T+ 4.778s  call  SetTemplateIcon(square) + SetLabel(tick 19)
+17:11:07.843 T+ 4.785s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 19
+17:11:07.848 T+ 4.790s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 19, 0.005s late
+17:11:08.085 T+ 5.027s  call  SetTemplateIcon(circle) + SetLabel(tick 20)
+17:11:08.096 T+ 5.038s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 20
+17:11:08.101 T+ 5.043s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 20, 0.005s late
+17:11:08.341 T+ 5.283s  call  SetTemplateIcon(square) + SetLabel(tick 21)
+17:11:08.353 T+ 5.295s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 21
+17:11:08.358 T+ 5.300s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 21, 0.004s late
+17:11:08.592 T+ 5.534s  call  SetTemplateIcon(circle) + SetLabel(tick 22)
+17:11:08.607 T+ 5.549s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 22
+17:11:08.612 T+ 5.554s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 22, 0.005s late
+17:11:08.836 T+ 5.778s  call  SetTemplateIcon(square) + SetLabel(tick 23)
+17:11:08.845 T+ 5.787s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 23
+17:11:08.849 T+ 5.791s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 23, 0.004s late
+17:11:09.085 T+ 6.027s  call  SetTemplateIcon(circle) + SetLabel(tick 24)
+17:11:09.095 T+ 6.037s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 24
+17:11:09.100 T+ 6.042s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 24, 0.005s late
+17:11:09.336 T+ 6.278s  call  SetTemplateIcon(square) + SetLabel(tick 25)
+17:11:09.347 T+ 6.289s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 25
+17:11:09.352 T+ 6.294s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 25, 0.005s late
+17:11:09.587 T+ 6.529s  call  SetTemplateIcon(circle) + SetLabel(tick 26)
+17:11:09.594 T+ 6.536s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 26
+17:11:09.598 T+ 6.540s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 26, 0.004s late
+17:11:09.836 T+ 6.778s  call  SetTemplateIcon(square) + SetLabel(tick 27)
+17:11:09.843 T+ 6.785s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 27
+17:11:09.849 T+ 6.791s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 27, 0.005s late
+17:11:10.084 T+ 7.026s  call  SetTemplateIcon(circle) + SetLabel(tick 28)
+17:11:10.095 T+ 7.037s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 28
+17:11:10.099 T+ 7.041s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 28, 0.004s late
+17:11:10.337 T+ 7.279s  call  SetTemplateIcon(square) + SetLabel(tick 29)
+17:11:10.344 T+ 7.286s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 29
+17:11:10.349 T+ 7.291s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 29, 0.005s late
+17:11:10.586 T+ 7.528s  call  SetTemplateIcon(circle) + SetLabel(tick 30)
+17:11:10.594 T+ 7.536s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 30
+17:11:10.599 T+ 7.541s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 30, 0.005s late
+17:11:10.837 T+ 7.779s  call  SetTemplateIcon(square) + SetLabel(tick 31)
+17:11:10.842 T+ 7.785s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 31
+17:11:10.847 T+ 7.789s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 31, 0.004s late
+17:11:11.086 T+ 8.028s  call  SetTemplateIcon(circle) + SetLabel(tick 32)
+17:11:11.087 T+ 8.029s  event dismissing menu (synthetic Escape)
+17:11:11.095 T+ 8.037s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 32
+17:11:11.104 T+ 8.046s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 32, 0.009s late
+17:11:11.339 T+ 8.281s  call  SetTemplateIcon(square) + SetLabel(tick 33)
+17:11:11.346 T+ 8.288s  mode  main run loop is in NSEventTrackingRunLoopMode at tick 33
+17:11:11.351 T+ 8.293s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 33, 0.005s late
+17:11:11.362          trace menuDidClose:
+17:11:11.363          trace showMenu mouseDown: returned, menu dismissed
+17:11:11.379          trace systemTraySetIcon block ran
+17:11:11.379          trace systemTraySetLabel block ran
+17:11:11.379 T+ 8.321s  ran   dispatch_async(main queue)     scheduled with tick 13, 5.029s late
+17:11:11.383          trace systemTraySetIcon block ran
+17:11:11.383          trace systemTraySetLabel block ran
+17:11:11.384 T+ 8.326s  ran   dispatch_async(main queue)     scheduled with tick 14, 4.791s late
+17:11:11.388          trace systemTraySetIcon block ran
+17:11:11.389          trace systemTraySetLabel block ran
+17:11:11.389 T+ 8.331s  ran   dispatch_async(main queue)     scheduled with tick 15, 4.543s late
+17:11:11.393          trace systemTraySetIcon block ran
+17:11:11.394          trace systemTraySetLabel block ran
+17:11:11.394 T+ 8.336s  ran   dispatch_async(main queue)     scheduled with tick 16, 4.301s late
+17:11:11.398          trace systemTraySetIcon block ran
+17:11:11.399          trace systemTraySetLabel block ran
+17:11:11.399 T+ 8.341s  ran   dispatch_async(main queue)     scheduled with tick 17, 4.055s late
+17:11:11.403          trace systemTraySetIcon block ran
+17:11:11.403          trace systemTraySetLabel block ran
+17:11:11.404 T+ 8.346s  ran   dispatch_async(main queue)     scheduled with tick 18, 3.810s late
+17:11:11.408          trace systemTraySetIcon block ran
+17:11:11.409          trace systemTraySetLabel block ran
+17:11:11.409 T+ 8.351s  ran   dispatch_async(main queue)     scheduled with tick 19, 3.566s late
+17:11:11.413          trace systemTraySetIcon block ran
+17:11:11.414          trace systemTraySetLabel block ran
+17:11:11.414 T+ 8.356s  ran   dispatch_async(main queue)     scheduled with tick 20, 3.318s late
+17:11:11.418          trace systemTraySetIcon block ran
+17:11:11.419          trace systemTraySetLabel block ran
+17:11:11.419 T+ 8.361s  ran   dispatch_async(main queue)     scheduled with tick 21, 3.066s late
+17:11:11.423          trace systemTraySetIcon block ran
+17:11:11.423          trace systemTraySetLabel block ran
+17:11:11.424 T+ 8.366s  ran   dispatch_async(main queue)     scheduled with tick 22, 2.817s late
+17:11:11.428          trace systemTraySetIcon block ran
+17:11:11.429          trace systemTraySetLabel block ran
+17:11:11.429 T+ 8.371s  ran   dispatch_async(main queue)     scheduled with tick 23, 2.585s late
+17:11:11.434          trace systemTraySetIcon block ran
+17:11:11.435          trace systemTraySetLabel block ran
+17:11:11.436 T+ 8.378s  ran   dispatch_async(main queue)     scheduled with tick 24, 2.340s late
+17:11:11.441          trace systemTraySetIcon block ran
+17:11:11.442          trace systemTraySetLabel block ran
+17:11:11.442 T+ 8.384s  ran   dispatch_async(main queue)     scheduled with tick 25, 2.095s late
+17:11:11.446          trace systemTraySetIcon block ran
+17:11:11.447          trace systemTraySetLabel block ran
+17:11:11.447 T+ 8.389s  ran   dispatch_async(main queue)     scheduled with tick 26, 1.854s late
+17:11:11.452          trace systemTraySetIcon block ran
+17:11:11.453          trace systemTraySetLabel block ran
+17:11:11.454 T+ 8.396s  ran   dispatch_async(main queue)     scheduled with tick 27, 1.611s late
+17:11:11.459          trace systemTraySetIcon block ran
+17:11:11.461          trace systemTraySetLabel block ran
+17:11:11.463 T+ 8.405s  ran   dispatch_async(main queue)     scheduled with tick 28, 1.368s late
+17:11:11.468          trace systemTraySetIcon block ran
+17:11:11.472          trace systemTraySetLabel block ran
+17:11:11.474 T+ 8.416s  ran   dispatch_async(main queue)     scheduled with tick 29, 1.130s late
+17:11:11.478          trace systemTraySetIcon block ran
+17:11:11.478          trace systemTraySetLabel block ran
+17:11:11.478 T+ 8.420s  ran   dispatch_async(main queue)     scheduled with tick 30, 0.884s late
+17:11:11.483          trace systemTraySetIcon block ran
+17:11:11.484          trace systemTraySetLabel block ran
+17:11:11.484 T+ 8.426s  ran   dispatch_async(main queue)     scheduled with tick 31, 0.641s late
+17:11:11.488          trace systemTraySetIcon block ran
+17:11:11.489          trace systemTraySetLabel block ran
+17:11:11.489 T+ 8.431s  ran   dispatch_async(main queue)     scheduled with tick 32, 0.394s late
+17:11:11.493          trace systemTraySetIcon block ran
+17:11:11.494          trace systemTraySetLabel block ran
+17:11:11.494 T+ 8.436s  ran   dispatch_async(main queue)     scheduled with tick 33, 0.148s late
+17:11:11.585 T+ 8.527s  call  SetTemplateIcon(circle) + SetLabel(tick 34)
+17:11:11.598          trace systemTraySetIcon block ran
+17:11:11.602 T+ 8.544s  mode  main run loop is in kCFRunLoopDefaultMode at tick 34
+17:11:11.607 T+ 8.549s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 34, 0.007s late
+17:11:11.611          trace systemTraySetLabel block ran
+17:11:11.612 T+ 8.554s  ran   dispatch_async(main queue)     scheduled with tick 34, 0.012s late
+17:11:11.836 T+ 8.779s  call  SetTemplateIcon(square) + SetLabel(tick 35)
+17:11:11.844          trace systemTraySetIcon block ran
+17:11:11.845 T+ 8.787s  mode  main run loop is in kCFRunLoopDefaultMode at tick 35
+17:11:11.850 T+ 8.792s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 35, 0.005s late
+17:11:11.866          trace systemTraySetLabel block ran
+17:11:11.867 T+ 8.809s  ran   dispatch_async(main queue)     scheduled with tick 35, 0.022s late
+17:11:12.085 T+ 9.027s  call  SetTemplateIcon(circle) + SetLabel(tick 36)
+17:11:12.095          trace systemTraySetIcon block ran
+17:11:12.105 T+ 9.047s  mode  main run loop is in kCFRunLoopDefaultMode at tick 36
+17:11:12.109 T+ 9.051s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 36, 0.004s late
+17:11:12.114          trace systemTraySetLabel block ran
+17:11:12.115 T+ 9.057s  ran   dispatch_async(main queue)     scheduled with tick 36, 0.010s late
+17:11:12.336 T+ 9.278s  call  SetTemplateIcon(square) + SetLabel(tick 37)
+17:11:12.344          trace systemTraySetIcon block ran
+17:11:12.352 T+ 9.294s  mode  main run loop is in kCFRunLoopDefaultMode at tick 37
+17:11:12.357 T+ 9.299s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 37, 0.004s late
+17:11:12.361          trace systemTraySetLabel block ran
+17:11:12.362 T+ 9.304s  ran   dispatch_async(main queue)     scheduled with tick 37, 0.010s late
+17:11:12.587 T+ 9.529s  call  SetTemplateIcon(circle) + SetLabel(tick 38)
+17:11:12.593          trace systemTraySetIcon block ran
+17:11:12.597 T+ 9.539s  mode  main run loop is in kCFRunLoopDefaultMode at tick 38
+17:11:12.601 T+ 9.543s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 38, 0.007s late
+17:11:12.615          trace systemTraySetLabel block ran
+17:11:12.616 T+ 9.558s  ran   dispatch_async(main queue)     scheduled with tick 38, 0.022s late
+17:11:12.837 T+ 9.779s  call  SetTemplateIcon(square) + SetLabel(tick 39)
+17:11:12.844          trace systemTraySetIcon block ran
+17:11:12.848 T+ 9.790s  mode  main run loop is in kCFRunLoopDefaultMode at tick 39
+17:11:12.853 T+ 9.795s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 39, 0.008s late
+17:11:12.864          trace systemTraySetLabel block ran
+17:11:12.867 T+ 9.809s  ran   dispatch_async(main queue)     scheduled with tick 39, 0.022s late
+17:11:13.086 T+10.028s  call  SetTemplateIcon(circle) + SetLabel(tick 40)
+17:11:13.100          trace systemTraySetIcon block ran
+17:11:13.101 T+10.043s  mode  main run loop is in kCFRunLoopDefaultMode at tick 40
+17:11:13.106 T+10.048s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 40, 0.005s late
+17:11:13.112          trace systemTraySetLabel block ran
+17:11:13.112 T+10.054s  ran   dispatch_async(main queue)     scheduled with tick 40, 0.012s late
+17:11:13.339 T+10.281s  call  SetTemplateIcon(square) + SetLabel(tick 41)
+17:11:13.345          trace systemTraySetIcon block ran
+17:11:13.352 T+10.295s  mode  main run loop is in kCFRunLoopDefaultMode at tick 41
+17:11:13.360 T+10.302s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 41, 0.013s late
+17:11:13.372          trace systemTraySetLabel block ran
+17:11:13.374 T+10.316s  ran   dispatch_async(main queue)     scheduled with tick 41, 0.027s late
+17:11:13.587 T+10.529s  call  SetTemplateIcon(circle) + SetLabel(tick 42)
+17:11:13.593          trace systemTraySetIcon block ran
+17:11:13.602 T+10.544s  mode  main run loop is in kCFRunLoopDefaultMode at tick 42
+17:11:13.607 T+10.549s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 42, 0.006s late
+17:11:13.611          trace systemTraySetLabel block ran
+17:11:13.612 T+10.554s  ran   dispatch_async(main queue)     scheduled with tick 42, 0.012s late
+17:11:13.835 T+10.777s  call  SetTemplateIcon(square) + SetLabel(tick 43)
+17:11:13.847          trace systemTraySetIcon block ran
+17:11:13.848 T+10.790s  mode  main run loop is in kCFRunLoopDefaultMode at tick 43
+17:11:13.853 T+10.795s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 43, 0.006s late
+17:11:13.865          trace systemTraySetLabel block ran
+17:11:13.866 T+10.808s  ran   dispatch_async(main queue)     scheduled with tick 43, 0.018s late
+17:11:14.085 T+11.027s  event quitting
+17:11:14.085 T+11.027s  call  SetTemplateIcon(circle) + SetLabel(tick 44)

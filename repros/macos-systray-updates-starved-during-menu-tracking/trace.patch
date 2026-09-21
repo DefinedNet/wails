@@ -1,0 +1,86 @@
+diff --git a/v3/pkg/application/systemtray_darwin.m b/v3/pkg/application/systemtray_darwin.m
+index 3f0d8f6885..eafba8fdd1 100644
+--- a/v3/pkg/application/systemtray_darwin.m
++++ b/v3/pkg/application/systemtray_darwin.m
+@@ -4,6 +4,18 @@
+ #include "menuitem_darwin.h"
+ #include "systemtray_darwin.h"
+ 
++// Trace hooks used by repros/macos-systray-updates-starved-during-menu-tracking
++// to show which code path enters native menu tracking.
++static void systrayTrace(const char *what) {
++	struct timeval tv;
++	gettimeofday(&tv, NULL);
++	struct tm lt;
++	localtime_r(&tv.tv_sec, &lt);
++	fprintf(stderr, "%02d:%02d:%02d.%03d          trace %s\n",
++	        lt.tm_hour, lt.tm_min, lt.tm_sec, (int)(tv.tv_usec / 1000), what);
++	fflush(stderr);
++}
++
+ extern void systrayClickCallback(long, int);
+ extern int systrayPreClickCallback(long, int);
+ 
+@@ -25,6 +37,7 @@
+ @implementation StatusItemController
+ 
+ - (void)statusItemClicked:(id)sender {
++	systrayTrace("statusItemClicked: action fired");
+ 	NSEvent *event = [NSApp currentEvent];
+ 	systrayClickCallback(self.id,
+ 		systemTrayCoerceEventType((int)event.type,
+@@ -32,6 +45,7 @@
+ }
+ 
+ - (void)menuDidClose:(NSMenu *)menu {
++	systrayTrace("menuDidClose:");
+ 	// Remove the menu from the status item so future clicks invoke the
+ 	// action handler instead of re-showing the menu.
+ 	self.statusItem.menu = nil;
+@@ -60,8 +74,10 @@
+ 		handler:^NSEvent *(NSEvent *event) {
+ 			if (event.window != button.window) return event;
+ 
++			systrayTrace("event monitor saw a status item mouse down");
+ 			int action = systrayPreClickCallback((long)controller.id, (int)event.type);
+ 			if (action == 1 && controller.cachedMenu != nil) {
++				systrayTrace("event monitor assigned statusItem.menu for native tracking");
+ 				controller.cachedMenu.delegate = controller;
+ 				statusItem.menu = controller.cachedMenu;
+ 			}
+@@ -77,6 +93,7 @@
+ 	}
+ 	// Set the label on the main thread
+ 	dispatch_async(dispatch_get_main_queue(), ^{
++		systrayTrace("systemTraySetLabel block ran");
+ 		NSStatusItem *statusItem = (NSStatusItem *)nsStatusItem;
+ 		statusItem.button.title = [NSString stringWithUTF8String:label];
+ 		free(label);
+@@ -168,6 +185,7 @@
+ void systemTraySetIcon(void* nsStatusItem, void* nsImage, int position, bool isTemplate) {
+ 	// Set the icon on the main thread
+ 	dispatch_async(dispatch_get_main_queue(), ^{
++		systrayTrace("systemTraySetIcon block ran");
+ 		NSStatusItem *statusItem = (NSStatusItem *)nsStatusItem;
+ 		NSImage *image = (NSImage *)nsImage;
+ 
+@@ -201,7 +219,9 @@
+ // showMenu is used for programmatic OpenMenu() calls.  Click-triggered
+ // menus are handled by the event monitor installed in systemTrayNew.
+ void showMenu(void* nsStatusItem, void *nsMenu) {
++	systrayTrace("showMenu enqueued on the main queue");
+ 	dispatch_async(dispatch_get_main_queue(), ^{
++		systrayTrace("showMenu block started draining on the main queue");
+ 		NSStatusItem *statusItem = (NSStatusItem *)nsStatusItem;
+ 		NSMenu *menu = (NSMenu *)nsMenu;
+ 		StatusItemController *controller = (StatusItemController *)[statusItem target];
+@@ -223,7 +243,9 @@
+ 		                                 eventNumber:0
+ 		                                  clickCount:1
+ 		                                    pressure:1.0];
++		systrayTrace("showMenu entering mouseDown: (blocks for the menu lifetime)");
+ 		[statusItem.button mouseDown:event];
++		systrayTrace("showMenu mouseDown: returned, menu dismissed");
+ 
+ 		// Menu dismissed — restore custom click handling.
+ 		statusItem.menu = nil;

@@ -1,0 +1,122 @@
+5:09PM INF Build Info: Wails=(local) => ../../v3 Compiler=go1.27.1 CGO_CXXFLAGS= CGO_LDFLAGS= GOOS=darwin CGO_CPPFLAGS= GOARCH=arm64 GOARM64=v8.0 -buildmode=exe -compiler=gc DefaultGODEBUG=cryptocustomrand=1,tlssecpmlkem=0,tracebacklabels=0,urlstrictcolons=0,x509sslcertoverrideplatform=0 CGO_ENABLED=1 CGO_CFLAGS=
+5:09PM INF AssetServer Info: middleware=true handler=true
+5:09PM INF Platform Info: ID=26A428 Name=MacOS Version=27.0 Branding=MacOS 27.0
+T+ 0.283s  call  SetTemplateIcon(square) + SetLabel(tick 1)
+T+ 0.292s  mode  main run loop is in kCFRunLoopDefaultMode at tick 1
+T+ 0.297s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 1, 0.008s late
+T+ 0.301s  read  status item button title is "tick 0" at tick 1
+T+ 0.308s  ran   dispatch_async(main queue)     scheduled with tick 1, 0.019s late
+T+ 0.536s  call  SetTemplateIcon(circle) + SetLabel(tick 2)
+T+ 0.546s  mode  main run loop is in kCFRunLoopDefaultMode at tick 2
+T+ 0.551s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 2, 0.007s late
+T+ 0.559s  read  status item button title is "tick 1" at tick 2
+T+ 0.574s  ran   dispatch_async(main queue)     scheduled with tick 2, 0.030s late
+T+ 0.784s  call  SetTemplateIcon(square) + SetLabel(tick 3)
+T+ 0.807s  mode  main run loop is in kCFRunLoopDefaultMode at tick 3
+T+ 0.811s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 3, 0.005s late
+T+ 0.815s  read  status item button title is "tick 2" at tick 3
+T+ 0.820s  ran   dispatch_async(main queue)     scheduled with tick 3, 0.014s late
+T+ 1.033s  call  SetTemplateIcon(circle) + SetLabel(tick 4)
+T+ 1.042s  mode  main run loop is in kCFRunLoopDefaultMode at tick 4
+T+ 1.047s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 4, 0.005s late
+T+ 1.052s  read  status item button title is "tick 3" at tick 4
+T+ 1.066s  ran   dispatch_async(main queue)     scheduled with tick 4, 0.024s late
+T+ 1.286s  call  SetTemplateIcon(square) + SetLabel(tick 5)
+T+ 1.299s  mode  main run loop is in kCFRunLoopDefaultMode at tick 5
+T+ 1.304s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 5, 0.011s late
+T+ 1.316s  read  status item button title is "tick 4" at tick 5
+T+ 1.322s  ran   dispatch_async(main queue)     scheduled with tick 5, 0.028s late
+T+ 1.532s  call  SetTemplateIcon(circle) + SetLabel(tick 6)
+T+ 1.551s  mode  main run loop is in kCFRunLoopDefaultMode at tick 6
+T+ 1.555s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 6, 0.004s late
+T+ 1.559s  read  status item button title is "tick 6" at tick 6
+T+ 1.564s  ran   dispatch_async(main queue)     scheduled with tick 6, 0.014s late
+T+ 1.783s  call  SetTemplateIcon(square) + SetLabel(tick 7)
+T+ 1.804s  mode  main run loop is in kCFRunLoopDefaultMode at tick 7
+T+ 1.809s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 7, 0.005s late
+T+ 1.814s  read  status item button title is "tick 7" at tick 7
+T+ 1.822s  ran   dispatch_async(main queue)     scheduled with tick 7, 0.018s late
+T+ 2.033s  call  SetTemplateIcon(circle) + SetLabel(tick 8)
+T+ 2.052s  mode  main run loop is in kCFRunLoopDefaultMode at tick 8
+T+ 2.057s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 8, 0.005s late
+T+ 2.061s  read  status item button title is "tick 8" at tick 8
+T+ 2.066s  ran   dispatch_async(main queue)     scheduled with tick 8, 0.014s late
+T+ 2.283s  call  SetTemplateIcon(square) + SetLabel(tick 9)
+T+ 2.292s  mode  main run loop is in kCFRunLoopDefaultMode at tick 9
+T+ 2.297s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 9, 0.007s late
+T+ 2.301s  read  status item button title is "tick 8" at tick 9
+T+ 2.315s  ran   dispatch_async(main queue)     scheduled with tick 9, 0.025s late
+T+ 2.533s  call  SetTemplateIcon(circle) + SetLabel(tick 10)
+T+ 2.547s  mode  main run loop is in kCFRunLoopDefaultMode at tick 10
+T+ 2.552s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 10, 0.011s late
+T+ 2.557s  read  status item button title is "tick 9" at tick 10
+T+ 2.563s  ran   dispatch_async(main queue)     scheduled with tick 10, 0.022s late
+T+ 2.787s  call  SetTemplateIcon(square) + SetLabel(tick 11)
+T+ 2.799s  mode  main run loop is in kCFRunLoopDefaultMode at tick 11
+T+ 2.805s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 11, 0.010s late
+T+ 2.819s  read  status item button title is "tick 10" at tick 11
+T+ 2.834s  ran   dispatch_async(main queue)     scheduled with tick 11, 0.039s late
+T+ 3.032s  event OpenMenu() - native menu tracking starts here
+T+ 3.032s  call  SetTemplateIcon(circle) + SetLabel(tick 12)
+T+ 8.033s  event dismissing menu (synthetic Escape)
+T+ 8.298s  mode  main run loop is in kCFRunLoopDefaultMode at tick 12
+T+ 8.303s  call  SetTemplateIcon(square) + SetLabel(tick 13)
+T+ 8.303s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 12, 0.005s late
+T+ 8.317s  read  status item button title is "tick 11" at tick 12
+T+ 8.322s  ran   dispatch_async(main queue)     scheduled with tick 12, 0.024s late
+T+ 8.327s  mode  main run loop is in kCFRunLoopDefaultMode at tick 13
+T+ 8.332s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 13, 0.005s late
+T+ 8.337s  read  status item button title is "tick 12" at tick 13
+T+ 8.342s  ran   dispatch_async(main queue)     scheduled with tick 13, 0.014s late
+T+ 8.533s  call  SetTemplateIcon(circle) + SetLabel(tick 14)
+T+ 8.555s  mode  main run loop is in kCFRunLoopDefaultMode at tick 14
+T+ 8.560s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 14, 0.005s late
+T+ 8.565s  read  status item button title is "tick 14" at tick 14
+T+ 8.570s  ran   dispatch_async(main queue)     scheduled with tick 14, 0.015s late
+T+ 8.785s  call  SetTemplateIcon(square) + SetLabel(tick 15)
+T+ 8.794s  mode  main run loop is in kCFRunLoopDefaultMode at tick 15
+T+ 8.799s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 15, 0.009s late
+T+ 8.804s  read  status item button title is "tick 14" at tick 15
+T+ 8.811s  ran   dispatch_async(main queue)     scheduled with tick 15, 0.020s late
+T+ 9.033s  call  SetTemplateIcon(circle) + SetLabel(tick 16)
+T+ 9.043s  mode  main run loop is in kCFRunLoopDefaultMode at tick 16
+T+ 9.048s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 16, 0.008s late
+T+ 9.053s  read  status item button title is "tick 15" at tick 16
+T+ 9.066s  ran   dispatch_async(main queue)     scheduled with tick 16, 0.026s late
+T+ 9.284s  call  SetTemplateIcon(square) + SetLabel(tick 17)
+T+ 9.299s  mode  main run loop is in kCFRunLoopDefaultMode at tick 17
+T+ 9.304s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 17, 0.011s late
+T+ 9.309s  read  status item button title is "tick 16" at tick 17
+T+ 9.324s  ran   dispatch_async(main queue)     scheduled with tick 17, 0.030s late
+T+ 9.533s  call  SetTemplateIcon(circle) + SetLabel(tick 18)
+T+ 9.548s  mode  main run loop is in kCFRunLoopDefaultMode at tick 18
+T+ 9.552s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 18, 0.008s late
+T+ 9.557s  read  status item button title is "tick 17" at tick 18
+T+ 9.567s  ran   dispatch_async(main queue)     scheduled with tick 18, 0.023s late
+T+ 9.787s  call  SetTemplateIcon(square) + SetLabel(tick 19)
+T+ 9.797s  mode  main run loop is in kCFRunLoopDefaultMode at tick 19
+T+ 9.801s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 19, 0.005s late
+T+ 9.805s  read  status item button title is "tick 18" at tick 19
+T+ 9.817s  ran   dispatch_async(main queue)     scheduled with tick 19, 0.021s late
+T+10.033s  call  SetTemplateIcon(circle) + SetLabel(tick 20)
+T+10.045s  mode  main run loop is in kCFRunLoopDefaultMode at tick 20
+T+10.050s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 20, 0.006s late
+T+10.054s  read  status item button title is "tick 19" at tick 20
+T+10.061s  ran   dispatch_async(main queue)     scheduled with tick 20, 0.017s late
+T+10.283s  call  SetTemplateIcon(square) + SetLabel(tick 21)
+T+10.291s  mode  main run loop is in kCFRunLoopDefaultMode at tick 21
+T+10.296s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 21, 0.006s late
+T+10.300s  read  status item button title is "tick 20" at tick 21
+T+10.313s  ran   dispatch_async(main queue)     scheduled with tick 21, 0.023s late
+T+10.533s  call  SetTemplateIcon(circle) + SetLabel(tick 22)
+T+10.542s  mode  main run loop is in kCFRunLoopDefaultMode at tick 22
+T+10.546s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 22, 0.004s late
+T+10.562s  read  status item button title is "tick 21" at tick 22
+T+10.569s  ran   dispatch_async(main queue)     scheduled with tick 22, 0.027s late
+T+10.784s  call  SetTemplateIcon(square) + SetLabel(tick 23)
+T+10.801s  mode  main run loop is in kCFRunLoopDefaultMode at tick 23
+T+10.807s  ran   CFRunLoopPerformBlock(common)  scheduled with tick 23, 0.010s late
+T+10.812s  read  status item button title is "tick 22" at tick 23
+T+10.819s  ran   dispatch_async(main queue)     scheduled with tick 23, 0.022s late
+T+11.037s  event quitting
+T+11.037s  call  SetTemplateIcon(circle) + SetLabel(tick 24)
